@@ -1,0 +1,75 @@
+h3{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h4{
+    text-align:center;
+}
+
+.full{
+    text-align: center;
+    
+    
+    
+}
+
+.result{
+    height: 70px;
+    width: 450px;
+    font-size:45px;
+    margin: 8px;
+    text-align: right;
+    background-color:peru;
+    font-family: cursive;
+    border: 4px double chocolate ;
+    box-shadow: 0 2px 4px 2px gray;
+
+
+}
+
+.btn{
+    height: 92px;
+    width: 112px;
+    font-size: 30px;
+    background-color:chocolate;
+    font-family: cursive;
+    box-shadow: 0 2px 4px 2px gray;
+    
+
+}
+.btn:hover{
+    box-shadow: 0 5px 9px 5px gray;
+}
+
+.stl{
+    background-color:brown;
+}
+
+.stl2{
+    background-color:gold;
+
+}
+
+.stl3{
+    background-color:burlywood;
+}
+.but{
+    background-color:green;
+    font-size: 1rem;
+}
+
+.st{
+    font-size: 1rem;
+}
+
+
+

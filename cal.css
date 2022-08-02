@@ -1,0 +1,58 @@
+h3{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    
+
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h4{
+    text-align:center;
+}
+
+.full{
+    text-align: center;
+    
+    
+    
+}
+
+.result{
+    height: 70px;
+    width: 450px;
+    font-size:45px;
+    margin: 8px;
+    text-align: right;
+    
+}
+
+.btn{
+    height: 92px;
+    width: 112px;
+    font-size: 30px;
+    
+    
+}
+.btn:hover{
+    background-color:gray;
+}
+
+.but{
+    background-color:green;
+    font-size: 1rem;
+    
+    
+}
+
+.st{
+    font-size: 1rem;
+}
+

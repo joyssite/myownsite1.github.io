@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="des1.css">
+    <title>Enjoy Calculator</title>
+</head>
+<body>
+    <h3> Enjoy Calculator 1.0</h3>
+    
+    <div class="center">
+        <button class="st">Styles =</button>
+    <button class="but"><a href="cal.html">Transparent</a></button>
+    <button class="but"><a href="des1.html">Wooden</a></button>
+    <button class="but"><a href="des2.html">Neon</a></button>
+    </div>
+    
+    <div class="full">
+        <div class="area">
+            <input type="text" class="result" maxlength="10" placeholder="Display                   0">
+        </div>
+
+        <div class="bor">
+            <input type="button" class="btn stl" value="🗑" onclick="clearRes()">
+            <input type="button" class="btn stl3" value="000" onclick="insert('000')">
+            <input type="button" class="btn stl3" value="%" onclick="insert('%')">
+            <input type="button" class="btn stl3" value="/" onclick="insert('/')">
+        </div>
+
+        <div>
+            <input type="button" class="btn" value="7" onclick="insert(7)">
+            <input type="button" class="btn" value="8" onclick="insert(8)">
+            <input type="button" class="btn" value="9" onclick="insert(9)">
+            <input type="button" class="btn stl3" value="X" onclick="insert('*')">
+        </div>
+
+        <div>
+            <input type="button" class="btn" value="4" onclick="insert(4)">
+            <input type="button" class="btn" value="5" onclick="insert(5)">
+            <input type="button" class="btn" value="6" onclick="insert(6)">
+            <input type="button" class="btn stl3" value="-" onclick="insert('-')">
+        </div>
+
+        <div>
+            <input type="button" class="btn" value="1" onclick="insert(1)">
+            <input type="button" class="btn" value="2" onclick="insert(2)">
+            <input type="button" class="btn" value="3" onclick="insert(3)">
+            <input type="button" class="btn stl3" value="+" onclick="insert('+')">
+        </div>
+
+        <div>
+            <input type="button" class="btn" value="0" onclick="insert(0)">
+            <input type="button" class="btn" value="." onclick="insert('.')">
+            <input type="button" class="btn" value="➔" onclick="Delete()">
+            <input type="button" class="btn stl2" value="=" onclick="calculate()">
+        </div>
+
+        
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="des1.js"></script>
+</body>
+</html>
